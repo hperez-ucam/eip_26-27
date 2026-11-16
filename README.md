@@ -92,3 +92,8 @@ de BindCraft.
 - Las diapositivas. Están en el campus virtual.
 - Los programas de diseño (RFdiffusion, ProteinMPNN, BindCraft). Están instalados en el
   servidor de clase, y cada diapositiva lleva la dirección de su repositorio original.
+
+## La otra asignatura
+
+Bioinformática tiene su propio repositorio:
+[hperez-ucam/bioinformatica_26-27](https://github.com/hperez-ucam/bioinformatica_26-27).
