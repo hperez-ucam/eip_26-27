@@ -1,0 +1,16 @@
+# Las seis dianas del bloque EIP 5.1-6.9, una por grupo.
+# Una accesion de UniProt por linea. Las lineas que empiezan por # no se leen.
+#
+# Grupo 1  Proteina fluorescente verde (GFP), 238 residuos
+P42212
+# Grupo 2  p53 humana, 393 residuos
+P04637
+# Grupo 3  Alfa-sinucleina, 140 residuos
+P37840
+# Grupo 4  Adenilato quinasa de E. coli, 214 residuos
+P69441
+# Grupo 5  Rodopsina bovina, 348 residuos
+P02699
+#
+# Grupo 6  Top7 no esta en UniProt: la diseno un ordenador en 2003 y no tiene gen.
+#          Su secuencia se saca del PDB, entrada 1QYS.
