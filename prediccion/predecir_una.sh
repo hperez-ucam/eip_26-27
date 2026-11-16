@@ -25,6 +25,16 @@ fi
 ACCESION="$1"               # el primer argumento: la proteina
 SALIDA="$2"                 # el segundo: donde dejar los resultados
 
+# command -v dice si una orden existe y donde esta. Si ColabFold no esta
+# instalado, conviene pararse aqui y decirlo, en vez de bajar la secuencia y
+# fallar despues.
+if ! command -v colabfold_batch > /dev/null; then
+    echo "ERROR: no encuentro colabfold_batch."
+    echo "En el servidor de clase esta en /opt/colabfold y se llama sin ruta."
+    echo "Si esto sale en el servidor de clase, avisa al profesor."
+    exit 1
+fi
+
 mkdir -p "$SALIDA"          # -p no se queja si el directorio ya existe
 
 # ── 1. La secuencia ──────────────────────────────────────────────────────────
