@@ -1,0 +1,9 @@
+== Profundidad del alineamiento (MMseqs2, servidor remoto de ColabFold) ==
+
+Top7 (PDB 1QYS), proteina disenada de novo en 2003:
+>1QYS_1|Chain A|TOP7|Computationally Designed Sequence
+MGDIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQLEGGSLEHHHHHH
+  secuencias en el MSA: 6
+
+Ubiquitina (76 residuos), proteina natural:
+  secuencias en el MSA: 21577

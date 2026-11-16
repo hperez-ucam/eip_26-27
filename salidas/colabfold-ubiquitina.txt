@@ -1,0 +1,23 @@
+== log ==
+2026-11-04 15:35:38,187 Query 1/1: ubiquitina (length 76)
+2026-11-04 15:35:52,799 Setting max_seq=512, max_extra_seq=5120
+2026-11-04 15:36:41,236 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=94.6 pTM=0.813
+2026-11-04 15:37:22,680 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.9 pTM=0.815 tol=0.0911
+2026-11-04 15:37:22,681 alphafold2_ptm_model_1_seed_000 took 86.9s (1 recycles)
+2026-11-04 15:37:22,684 reranking models by 'plddt' metric
+2026-11-04 15:37:22,684 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.9 pTM=0.815
+2026-11-04 15:37:22,844 Done
+
+== ficheros ==
+cite.bibtex
+config.json
+log.txt
+ubiquitina.a3m
+ubiquitina.done.txt
+ubiquitina_coverage.png
+ubiquitina_env
+ubiquitina_pae.png
+ubiquitina_plddt.png
+ubiquitina_predicted_aligned_error_v1.json
+ubiquitina_scores_rank_001_alphafold2_ptm_model_1_seed_000.json
+ubiquitina_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb

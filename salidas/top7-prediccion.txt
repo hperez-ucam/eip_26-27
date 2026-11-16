@@ -1,0 +1,18 @@
+== Top7 (PDB 1QYS), proteina disenada de novo: prediccion y comparacion ==
+
+-- Alineamiento: 6 secuencias (la ubiquitina reune 21577)
+-- Prediccion con ColabFold 1.6.3, CPU, 1 modelo y 1 reciclado:
+2026-11-06 11:02:47,697 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=82.9 pTM=0.721 tol=1.15
+2026-11-06 11:02:47,698 alphafold2_ptm_model_1_seed_000 took 22.8s (1 recycles)
+2026-11-06 11:02:47,702 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=82.9 pTM=0.721
+
+-- Comparacion con el cristal 1QYS:
+
+Name of Structure_1: pred_top7/1QYS_1_Chain_A_TOP7_Computationally_Designed_Sequence_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb:A (to be superimposed onto Structure_2)
+Name of Structure_2: 1qys.pdb:A
+Length of Structure_1: 106 residues
+Length of Structure_2: 91 residues
+
+Aligned length= 91, RMSD=   0.82, Seq_ID=n_identical/n_aligned= 1.000
+TM-score= 0.82338 (normalized by length of Structure_1: L=106, d0=3.78)
+TM-score= 0.95217 (normalized by length of Structure_2: L=91, d0=3.45)
