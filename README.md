@@ -37,7 +37,7 @@ scp USUARIO@SERVIDOR:eip_26-27/pymol/p53-plddt_v2.pse .
 | Directorio | Contenido | Clase |
 |---|---|---|
 | `estructuras/` | Entradas del PDB y modelos de AlphaFold DB que se usan en clase | 5.1 a 6.6 |
-| `pymol/` | Cinco sesiones de PyMOL, con la escena ya montada | 5.1, 6.1, 6.2 |
+| `pymol/` | Siete sesiones de PyMOL, con la escena ya montada | 6.1, 6.2, 6.6 |
 | `salidas/` | Salidas reales de ColabFold y US-align, tal como las devolvió el servidor | 5.1, 6.1, 6.2 |
 | `secuencias/` | Diseños de ProteinMPNN y el script `conservadas.py` de la tarea 6.4 | 6.4 |
 | `disenos/` | La tabla de 50 diseños con sus métricas, para la tarea 6.5 | 6.5 |
@@ -62,13 +62,17 @@ scp USUARIO@SERVIDOR:eip_26-27/pymol/p53-plddt_v2.pse .
 Se abren con `File > Open` en PyMOL. Traen la escena montada: la orientación, los colores y lo
 que está representado. Se pueden girar y medir.
 
-| Fichero | Qué muestra |
-|---|---|
-| `p53-plddt_v2.pse` | p53 coloreada por pLDDT, con su escala de color |
-| `desorden-ubiquitina_v1.pse` | Las 10 conformaciones de RMN de la ubiquitina, a la vez |
-| `desorden-asinucleina_v2.pse` | Alfa-sinucleína: lo que devuelve un predictor ante una proteína sin estructura |
-| `gfp-modelo-vs-cristal_v1.pse` | Modelo de AlphaFold y cristal de la GFP, superpuestos |
-| `adk-dos-estados_v1.pse` | Adenilato quinasa, cerrada y abierta, superpuestas |
+| Fichero | Qué muestra | Clase |
+|---|---|---|
+| `p53-plddt_v2.pse` | p53 coloreada por pLDDT, con su escala de color | 6.1 |
+| `gfp-modelo-vs-cristal_v1.pse` | Modelo de AlphaFold y cristal de la GFP, superpuestos | 6.1 |
+| `desorden-ubiquitina_v1.pse` | Las 10 conformaciones de RMN de la ubiquitina, a la vez | 6.2 |
+| `desorden-asinucleina_v2.pse` | Alfa-sinucleína: lo que devuelve un predictor ante una proteína sin estructura | 6.2 |
+| `adk-dos-estados_v1.pse` | Adenilato quinasa, cerrada y abierta, superpuestas | 6.2 |
+| `igg-vs-nanobody_v2.pse` | IgG completa (1IGT) y nanobody (1MEL), uno al lado del otro y a la misma escala | 6.6 |
+| `nanobody-cdr_v1.pse` | Nanobody sobre la lisozima: en dorado, los residuos a 4 Å o menos de la lisozima; en granate, los dos residuos catalíticos | 6.6 |
+
+Las siete están también en el campus virtual, en el módulo «Material adicional».
 
 ## Con qué y cuándo se calculó
 
