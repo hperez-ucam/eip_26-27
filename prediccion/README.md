@@ -9,6 +9,7 @@ cálculo por línea de comandos, en el servidor de clase.
 |---|---|
 | `predecir_una.sh` | Predice **una** proteína: baja su secuencia de UniProt, lanza ColabFold y escribe el pLDDT |
 | `dianas.txt` | Los identificadores de UniProt de las seis dianas del bloque, uno por línea |
+| `contar_homologos.sh` | Cuenta cuántas secuencias homólogas encuentra ColabFold para las cinco dianas, sin predecir la estructura. Es el ejemplo del material complementario «Funcionamiento de AlphaFold 2» |
 
 ColabFold 1.6.3 ya está instalado en el servidor de clase, en `/opt/colabfold`, con los pesos
 de AlphaFold 2 compartidos. La orden `colabfold_batch` se llama sin ruta y sin activar nada.
@@ -33,7 +34,7 @@ tiempos medidos en el propio servidor de clase:
 |---|---|---|---|
 | Top7 (diseñada) | 106 | 6 | 23 s |
 | Ubiquitina | 76 | 21 577 | 87 s |
-| GFP (P42212) | 238 | 21 577 | 248 s |
+| GFP (P42212) | 238 | 743 | 248 s |
 
 El tiempo no depende solo de la longitud. Top7 es más larga que la ubiquitina y tarda cuatro
 veces menos, porque casi no tiene parientes en las bases de datos y el alineamiento múltiple
